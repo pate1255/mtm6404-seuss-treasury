@@ -73,14 +73,6 @@ h1{
   transition: transform 0.5s;
 }
 
-.books a{
-  text-decoration: none;
-  color: white;
-  background-color: cornflowerblue;
-  padding: 10px 65px;
-  border-radius: 8px;
-  text-align: center;
-}
 
 /* DETAILS PAGE */
 

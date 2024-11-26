@@ -17,11 +17,10 @@ function Books() {
         <div className='book-container'>
         {books.map((book) => (
             <div key={book.id} id={book.id} className='books'>
-                <div className='books-image'><img src={book.image} alt={book.title} style={{
+                <div><Link key={book.id} to={`/book/${book.id}`}><div className='books-image'><img src={book.image} alt={book.title} style={{
                     width: '180px',
                     height: '240px',
-                }}/></div>
-                <div><Link key={book.id} to={`/book/${book.id}`}>Details</Link></div>
+                }}/></div></Link></div>
             </div>
           )
         )}
